@@ -1,0 +1,46 @@
+/** @format */
+.skills-section {
+  margin: 2rem auto 0;
+  text-align: center;
+  width: 100%;
+  @media screen and (max-width: 540px) {
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 420px) {
+    margin: 0 auto;
+  }
+}
+
+.skills {
+  font-size: 100px;
+  margin: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  svg {
+    color: #0381ff42;
+  transition: 0.4s;
+
+    &:hover {
+      color: #037FFF;
+    }
+  }
+  @media screen and (max-width: 540px) {
+    display: inline-block;
+  }
+  @media screen and (max-width: 420px) {
+    display: inline-block;
+  }
+}
+
+.icon-container {
+  width: 20%;
+  p {
+    font-size: 1.5rem;
+    color: #fff;
+    min-width: 100px;
+  }
+  @media screen and (max-width: 420px) {
+    display: contents;
+  }
+}
